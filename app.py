@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import folium
 from streamlit_folium import folium_static
-from src.optimizer.logistics_optimizer import LogisticsOptimizer
-from src.utils.sample_data import generate_sample_data
+from optimizer.logistics_optimizer import LogisticsOptimizer
+from utils.sample_data import generate_sample_data
 
 st.set_page_config(page_title="Otimizador Logístico", layout="wide")
 
